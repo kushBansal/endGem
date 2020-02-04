@@ -1,0 +1,138 @@
+body{
+  margin: 0;
+}
+.sideBar{
+  height: 500px;
+  width: 350px;
+  color: white;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
+.image{
+  width: 350px;
+  height: 500px;
+}
+.name{
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  top: 100px;
+  left: 70px;
+  font-size: 60px;
+
+}
+.name1{
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+    float: right;
+    color: #9d2503;
+    font-size: 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: 5px;
+    left: 75px;
+}
+.logo{
+  width:70px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.title{
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 250px;
+  left: 70px;
+}
+.description{
+  position: absolute;
+  font-family: 'Montserrat', sans-serif;
+  top: 350px;
+  left: 70px;
+}
+.mainBlock{
+  display: inline-block;
+  float: right;
+  position: absolute;
+  top: 0px;
+  right: 250px;
+  left: 500px;
+}
+.addMaterial{
+  font-family: 'Cute Font', cursive;
+  color: #36b5b0;
+  font-size: 100px;
+  margin-top: 30px;
+  margin-bottom:30px;
+position: relative;
+left: 60px;
+}
+.icons{
+  width: 40px;
+
+}
+.icon{
+  position: relative;
+  bottom: 40px;
+  left: 220px;
+  display: inline-block;
+}
+.selectCourse{
+  width: 600px;
+  border-color: #9dd8c8;
+  padding: 6px 200px;
+  text-align: center;
+  color: #a3f7bf;
+font-weight: bold;
+font-size: 16px;
+margin-top: 5px;
+}
+option:focus{
+  background-color:#36b5b0;
+}
+label{
+  color: #36b5b0;
+  font-size: 20px;
+}
+input{
+  border-width: 1px;
+  padding: 6px 0px;
+  border-color: #9dd8c8;
+  width: 600px;
+  margin-top: 5px;
+text-align: center;
+color: #a3f7bf;
+font-size: 14px;
+}
+::placeholder{
+  color: #a3f7bf;
+  font-weight: bold;
+}
+.myButton {
+	box-shadow: 0px 10px 14px -7px #3e7327;
+	background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+	background-color:#77b55a;
+	border-radius:4px;
+	border:1px solid #4b8f29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #5b8a3c;
+  margin-left: 250px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+	background-color:#72b352;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.browse{
+  padding: 10px;
+}

@@ -1,0 +1,278 @@
+.logo{
+  width:50px;
+
+}
+.navBar{
+  background-color: #c2e8ce;
+  position: relative;
+}
+.name{
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+    float: right;
+    color: #9d2503;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.wholeLogo{
+  display: inline-block;
+
+
+}
+.courses{
+  display: inline-block;
+  background-color: #9dd8c8;
+  position: absolute;
+  top: 20px;
+  right: 500px;
+
+
+}
+#course1{
+  display: inline-block;
+  padding-right:15px;
+  padding-top: 10px;
+  padding-bottom:8px;
+  padding-left:15px;
+  background-color: #36b5b0;
+}
+#course2{
+  display: inline-block;
+  padding-left:15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom:8px;
+}
+#course3{
+  display: inline-block;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom:8px;
+}
+#course4{
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom:8px;
+}
+#course1:hover{
+
+  cursor: pointer;
+}
+#course2:hover{
+
+  cursor: pointer;
+}
+#course3:hover{
+
+  cursor: pointer;
+}
+#course4:hover{
+
+  cursor: pointer;
+}
+.side{
+  font-size: 30px;
+  float: right;
+  color:#36b5b0;
+}
+.menu{
+  width: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+
+}
+.plus{
+  width: 20px;
+  margin-top: 18px;
+  margin-right: 20px;
+}
+.menu:hover{
+  cursor: pointer;
+}
+.plus:hover{
+  cursor: pointer;
+}
+.leaderBoard{
+  text-align: center;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  position: relative;
+  left: 916px;
+  min-height: 480px;
+  width: 350px;
+  display: none;
+  font-size: 30px;
+}
+body{
+  margin: 0;
+}
+.topGem{
+  margin-top: 50px;
+  display: inline-block;
+  position: relative;
+  right: 20px;
+  margin-bottom: 0px;
+}
+.course1{
+  margin-left: 60px;
+  margin-top: 60px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  width: 800px;
+  top: 100px;
+}
+.course2{
+  display: none;
+  margin-left: 60px;
+  margin-top: 60px;
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    top: 100px;
+}
+.course3{
+  display: none;
+  margin-left: 60px;
+  margin-top: 60px;
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    top: 100px;
+}
+.course4{
+  display: none;
+  margin-left: 60px;
+  margin-top: 60px;
+    text-align: center;
+    position: absolute;
+    width: 800px;
+    top: 100px;
+}
+.delete{
+  display: none;
+  width: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.delete:hover{
+  cursor: pointer;
+}
+.titleHeading{
+  text-align: center;
+  margin: 30px auto;
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+  color: #3282b8;
+  font-weight: lighter;
+}
+.material{
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #2c7873 50%, #c0ffb3 50%);
+  position: relative;
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  align-items: stretch;
+  border-radius: 10px;
+  box-shadow:5px 5px 10px #52de97 ;
+  margin: 25px;
+}
+.download{
+  width: 50px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+
+}
+.downloadNum{
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  color: #bbe1fa;
+  font-size: 16px;
+  display: inline-block;
+}
+.showCourse1{
+  width: 350px;
+}
+.showCourse2{
+  display: none;
+  width: 350px;
+}
+.showCourse3{
+  display: none;
+  width: 350px;
+}
+.showCourse4{
+  display: none;
+  width: 350px;
+}
+.subjectHeading{
+  position: absolute;
+  left: 15px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 16px;
+  margin-top: 16px;
+  color: #f1f1f6;
+  margin-top: 13px;
+}
+.totalDownload{
+  position: absolute;
+  right: 25px;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: #f1f1f6;
+}
+.subject{
+  height: 50px;
+  margin-bottom: 5px;
+  position: relative;
+}
+.sexy_line{
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+    padding-top: 50px;
+}
+.showNum{
+  color: #bbe1fa;
+  font-size: 16px;
+  position: absolute;
+  bottom: 10px;
+  left: 130px;
+}
+.count{
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  color: #f1f1f6;
+  position: absolute;
+  right: 100px;
+  top: 16px;
+}
+.displayCourse{
+  font-family: 'Oswald', sans-serif;
+  color: #f1f1f6;
+  margin-top: 10px;
+}
+.trophy{
+  width: 60px;
+  position: absolute;
+  right: 10px;
+  top: 35px;
+
+}
+.icons{
+  margin-left: 5px;
+  margin-right: 5px;
+}

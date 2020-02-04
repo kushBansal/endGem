@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EndGem</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Playball&display=swap" rel="stylesheet">
+    <link rel="icon" href="logo.ico">
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="wholeLogo">
+        <img src="logo1.png" alt="EndGem"class="logo">
+        <p class="name"><strong>END GEM</strong></p>
+      </div>
+      <div class="courses">
+        <div class="course"id="course1">
+          Course 1
+        </div>
+        <div class="course"id="course2">
+          Course 2
+        </div>
+        <div class="course"id="course3">
+          Course 3
+        </div>
+        <div class="course"id="course4">
+          Course 4
+        </div>
+      </div>
+      <div class="side">
+        <a href="/add"><img src="add.png" alt="plus"class="plus"></a>
+
+<img src="delete.png" alt=""class="delete menu">
+        <img src="menu.png" alt="menu"class="menu">
+      </div>
+    </div>
+    <div class="leaderBoard">
+      <h2 class="topGem">TOP GEMS </h2>
+      <img src="success.png" alt="trophy"class="trophy">
+      <div class="showcourse1">
+        <h3 class="displayCourse">Course 1</h3>
+        <% for(let i=0;i<courseDetail.length;i++)
+        {
+
+         if(courseDetail[i].course=="course 1")
+          { %>
+            <div class="subject">
+              <span class="count count1">0</span>
+              <h2 class="subjectHeading subjectHeading1"><%= courseDetail[i].title %></h2>
+
+              <p class="totalDownload">Downloads</p>
+              <span class="sexy_line"></span>
+            </div>
+          <% }
+          } %>
+      </div>
+      <div class="showcourse2">
+        <h3 class="displayCourse">Course 2</h3>
+        <% for(let i=0;i<courseDetail.length;i++)
+        {
+         if(courseDetail[i].course=="course 2")
+          { %>
+            <div class="subject">
+              <span class="count count2">0</span>
+              <h2 class="subjectHeading subjectHeading2"><%= courseDetail[i].title %></h2>
+
+              <p class="totalDownload">Downloads</p>
+              <span class="sexy_line"></span>
+            </div>
+          <% }
+          } %>
+      </div>
+      <div class="showcourse3">
+        <h3 class="displayCourse">Course 3</h3>
+        <% for(let i=0;i<courseDetail.length;i++)
+        {
+         if(courseDetail[i].course=="course 3")
+          { %>
+            <div class="subject">
+              <span class="count count3">0</span>
+              <h2 class="subjectHeading subjectHeading3"><%= courseDetail[i].title %></h2>
+
+              <p class="totalDownload">Downloads</p>
+              <span class="sexy_line"></span>
+            </div>
+          <% }
+          } %>
+      </div>
+      <div class="showcourse4">
+        <h3 class="displayCourse">Course 4</h3>
+        <% for(let i=0;i<courseDetail.title;i++)
+        {
+         if(courseDetail[i].Course=="course 4")
+          { %>
+            <div class="subject">
+              <span class="count count4">0</span>
+              <h2 class="subjectHeading subjectHeading4"><%=courseDetail[i].title %></h2>
+
+              <p class="totalDownload">Downloads</p>
+
+              <span class="sexy_line"></span>
+            </div>
+          <% }
+          } %>
+      </div>
+    </div>
+    <div class="course1">
+      <% for(let i=0;i<courseDetail.length;i++)
+      {
+       if(courseDetail[i].course=="course 1")
+        { %>
+          <div class="material">
+            <h2 class="titleHeading titleHeading1"><%= courseDetail[i].title %></h2>
+            <a href="upload/<%=courseDetail[i].path %>" download ><img src="download.png"alt="download"class="download"></a>
+            <!-- <button type="button" name="button"class="download">download</button> -->
+            <span class="downloadNum">Total Downloads : </span>
+            <span class="showNum showNum1">0</span>
+          </div>
+        <% }
+        } %>
+
+    </div>
+    <div class="course2">
+      <% for(let i=0;i<courseDetail.length;i++)
+      {
+       if(courseDetail[i].course=="course 2")
+        { %>
+          <div class="material">
+            <h2 class="titleHeading titleHeading2"><%=courseDetail[i].title %></h2>
+              <a href="upload/<%=courseDetail[i].path %>" download ><img src="download.png"alt="download"class="download"></a>
+            <span class="downloadNum">Total Downloads :</span>
+            <span class="showNum showNum2">0</span>
+          </div>
+        <% }
+         } %>
+    </div>
+    <div class="course3">
+      <% for(let i=0;i<courseDetail.length;i++)
+      {
+      if(courseDetail[i].course=="course 3")
+        { %>
+      <div class="material">
+        <h2 class="titleHeading titleHeading3"><%= courseDetail[i].title %></h2>
+          <a href="upload/<%=courseDetail[i].path %>" download><img src="download.png"alt="download"class="download"></a>
+        <span class="downloadNum">Total Downloads :</span>
+        <span class="showNum showNum3">0</span>
+      </div>
+
+        <% }
+        } %>
+    </div>
+    <div class="course4">
+      <% for(let i=0;i<courseDetail.length;i++)
+      {
+        if(courseDetail[i].course=="course 4")
+        { %>
+          <div class="material">
+            <h2 class="titleHeading titleHeading4"><%= courseDetail[i].title %></h2>
+              <a href="upload/<%=courseDetail[i].path %>" download><img src="download.png"alt="download"class="download"></a>
+            <span class="downloadNum">Total Download :</span>
+            <span class="showNum showNum4">0</span>
+          </div>
+        <% }
+        } %>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="endgame.js" charset="utf-8"></script>
+  </body>
+</html>
